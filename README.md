@@ -1,1 +1,1 @@
-[Обзор подходов к domain adaptation](File:research-doc.md)
+[Обзор подходов к domain adaptation](research-doc.md)
