@@ -1,4 +1,5 @@
-[HF](https://huggingface.co/lkeab/hq-sam)
+Ссылка на найденную сеть для сегментации изображений в высоком качестве: [HF](https://huggingface.co/lkeab/hq-sam), [github](https://github.com/syscv/sam-hq), [spaces](https://huggingface.co/spaces/sam-hq-team/sam-hq
+)
 
 ## Используем метод Domain Adversarial Neural Network (DANN) для адаптации модели для сегментации изображений
 ### Инструкция (для linux)
