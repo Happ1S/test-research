@@ -14,7 +14,7 @@ source venv/bin/activate
 ```
 git clone https://github.com/thuml/Transfer-Learning-Library
 ```
-4. Перейти в репозиторий
+4. Перейти в директорию Transfer-Learning-Library
 ```
 cd Transfer-Learning-Library
 ```
