@@ -1,5 +1,32 @@
-Ссылка на скачивание [модели](https://huggingface.co/lkeab/hq-sam/resolve/main/sam_hq_vit_l.pth)
-
 [HF](https://huggingface.co/lkeab/hq-sam)
 
-[колаб](https://colab.research.google.com/drive/1QwAbn5hsdqKOD5niuBzuqQX4eLCbNKFL?usp=sharing#scrollTo=34r0whHs1L3E)
+## Используем метод Domain Adversarial Neural Network (DANN) для адаптации модели для сегментации изображений
+### Инструкция (для linux)
+1. Создать виртуальное окружение
+```
+python -m venv venv
+```
+2. Активировать виртуальное окружение 
+```
+source venv/bin/activate
+```
+3. Скопировать репозиторий
+```
+git clone https://github.com/thuml/Transfer-Learning-Library
+```
+4. Перейти в репозиторий
+```
+cd Transfer-Learning-Library
+```
+5. Запустить setup.py
+```
+python setup.py install
+```
+6. Установить необходимые зависимости
+```
+pip install -r requirements.txt
+```
+7. Запустить адаптацию
+```
+CUDA_VISIBLE_DEVICES=0 python dann.py "путь к данным" -d "имя датасета" -s "исходный домен" -t "целевой домен" -a "архитектура модели" --epochs "количество эпох" --log "путь для логов"
+```
