@@ -2,6 +2,8 @@
 )
 
 Ссылка на репозиторий для доменной адаптации: [github](https://github.com/thuml/Transfer-Learning-Library)
+
+![Алгоритм адаптации домена](image1.png)
 ## Используем метод Domain Adversarial Neural Network (DANN) для адаптации модели для сегментации изображений
 ### Инструкция (для linux)
 1. Создать виртуальное окружение
