@@ -126,3 +126,13 @@
 **DDA** использует глубокие нейронные сети для адаптации к домену, предлагая высокоэффективные подходы для обработки сложных и многомерных данных. Discrepancy-based методы минимизируют различия между распределениями, reconstruction-based подходы восстанавливают данные из признаков, а adversarial-based методы используют состязательные сети для обучения модели, устойчивой к различиям между доменами.
 
 Эти методы адаптации к домену не только улучшают производительность моделей на целевых данных, но и расширяют возможности применения машинного обучения в реальных задачах, где данные могут быть неполными или разнородными. С развитием технологий и появлением новых подходов, такие как adversarial-based методы, адаптация к домену становится все более мощным инструментом для создания универсальных и устойчивых моделей.
+
+## Источники
+
+1. **Pan, S. J., & Yang, Q. (2010). A Survey on Transfer Learning. IEEE Transactions on Knowledge and Data Engineering, 22(10), 1345-1359.** 
+
+2. **Ben-David, S., Blitzer, J., Crammer, K., & Pereira, F. (2007). Analysis of Representations for Domain Adaptation. Advances in Neural Information Processing Systems (NIPS), 19.**
+
+3. **Tzeng, E., Hoffman, J., Saenko, K., & Darrell, T. (2017). Adversarial Discriminative Domain Adaptation. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2962-2971.**
+
+4. **Long, M., Cao, Y., Wang, J., & Jordan, M. I. (2015). Learning Transferable Features with Deep Adaptation Networks. Proceedings of the 32nd International Conference on Machine Learning (ICML), 97-105.**
