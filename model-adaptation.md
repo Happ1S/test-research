@@ -1,8 +1,3 @@
-Ссылка на найденную сеть для сегментации изображений в высоком качестве: [HF](https://huggingface.co/lkeab/hq-sam), [github](https://github.com/syscv/sam-hq), [spaces](https://huggingface.co/spaces/sam-hq-team/sam-hq
-)
-
-Ссылка на репозиторий для доменной адаптации: [github](https://github.com/thuml/Transfer-Learning-Library)
-
 ![Алгоритм сегмантации](images/image1.png)
 
 Рис 1. Алгоритм сегмантации изображения
@@ -37,3 +32,12 @@ pip install -r requirements.txt
 ```
 CUDA_VISIBLE_DEVICES=0 python dann.py "путь к данным" -d "имя датасета" -s "исходный домен" -t "целевой домен" -a "архитектура модели" --epochs "количество эпох" --log "путь для логов"
 ```
+
+## Полезные ссылки
+
+Ссылка на найденную сеть для сегментации изображений в высоком качестве: [HF](https://huggingface.co/lkeab/hq-sam), [github](https://github.com/syscv/sam-hq), [spaces](https://huggingface.co/spaces/sam-hq-team/sam-hq
+)
+
+Ссылка на репозиторий для доменной адаптации: [github](https://github.com/thuml/Transfer-Learning-Library)
+
+Ссылка на kaggle notebook для доменной адаптации на примере датасета office-home: [github](https://www.kaggle.com/code/karntiwari/domain-adaptation-for-office-home-dataset)
