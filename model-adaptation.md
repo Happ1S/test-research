@@ -3,7 +3,7 @@
 
 Ссылка на репозиторий для доменной адаптации: [github](https://github.com/thuml/Transfer-Learning-Library)
 
-![Алгоритм сегмантации](image1.png)
+![Алгоритм сегмантации](images/image1.png)
 
 Рис 1. Алгоритм сегмантации изображения
 
